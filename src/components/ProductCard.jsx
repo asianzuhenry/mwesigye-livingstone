@@ -1,4 +1,4 @@
-const ProductCard = ({ product }) => { 
+const ProductCard = ({ product, onBuy }) => {
     return (
       <div
         key={product.id}
@@ -20,7 +20,7 @@ const ProductCard = ({ product }) => {
           </p>
 
           <button
-            onClick={() => (window.location.href = product.link)}
+            onClick={() => onBuy(product)}
             className="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-lg font-medium transition-colors duration-300"
           >
             Buy Now
