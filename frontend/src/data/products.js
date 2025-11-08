@@ -61,6 +61,13 @@ const products = [
         price: 3000,
         image: "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=500&q=80",
         description: "High-quality toothbrush for effective cleaning."
+    },
+    {
+        id: 10,
+        name: "pen",
+        price: 500,
+        image: "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=500&q=80",
+        description: "High-quality pen for effective cleaning."
     }
 ];
 
